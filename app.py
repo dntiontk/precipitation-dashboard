@@ -20,6 +20,9 @@ first, last = get_first_and_last_year(df)
 theme = "plotly_dark"
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
+
+server = app.server
+
 app.layout = html.Div(
     [
         html.H4("Windsor precipitation ({}-{})".format(first, last)),
