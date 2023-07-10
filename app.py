@@ -6,6 +6,7 @@ import plotly.express as px
 import pandas as pd
 from os import path
 
+# copy of cleaned data originally sourced from https://opendata.citywindsor.ca/
 data_source="https://raw.githubusercontent.com/dntiontk/windsor-opendata/main/precipitation/windsor-precipitation.csv"
 
 def get_first_and_last_year(df):
