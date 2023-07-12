@@ -37,7 +37,7 @@ app.layout = html.Div(
         dcc.RangeSlider(
             first,
             last,
-            value=[first, last],
+            value=[last - 1, last],
             id="year-slider",
             allowCross=False,
             step=1,
